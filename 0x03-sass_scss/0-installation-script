@@ -1,0 +1,4 @@
+Firstly, i confirmed if i had node.js and npm downloaded on my system.
+I then went ahead to download sass using the command line "npm install -g sass"
+I verified the installation using "sass --version"
+I then installed it using "npm install --save-dev sass"
