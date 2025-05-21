@@ -1,0 +1,9 @@
+Firstly, i made sure node.js and npm were installed
+Then i installed Sass with the command line "npm install -g sass"
+To verify the installation i typed sass --version
+To install localy as a dev-dependency i used "npm install --save-dev sass"
+Then i added scripts to my package.json 
+"scripts": {
+    "build:css": "sass src/styles.scss dist/styles.css --no-source-map",
+    "watch:css": "sass -- watch src/styles.scss:dist/styles.css"
+  }
